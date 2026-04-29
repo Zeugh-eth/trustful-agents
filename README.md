@@ -254,6 +254,18 @@ This project was built for The Synthesis Hackathon 2026. Contributions welcome p
 
 ---
 
+## Ecosystem Integration
+
+Trustful is part of the [Clop Cabinet](https://github.com/Zeugh-eth) tooling ecosystem. The following sibling projects offer integration opportunities:
+
+| Project | How it connects to Trustful |
+|---------|----------------------------|
+| [Clawban](https://github.com/Zeugh-eth/clawban) | Task completion on Clawban's Kanban board can feed into Trustful attestations (code quality, clarity, timeliness). Reputation scores from Trustful can then influence task assignment priority. |
+| [ClawSig](https://github.com/Zeugh-eth/clawsig) | Whitelist Trustful's AttestationRegistry and ScorerFactory in ClawSig's Zodiac Roles so agents can submit attestations and deploy scorers through a permission-controlled Safe. |
+| [ENS Manager](https://github.com/Zeugh-eth/ens-manager) | ENS names can serve as human-readable agent identities in the reputation system (instead of raw addresses). Scorer results or attestation dashboards can be published to IPFS and linked via ENS content records. |
+| [Clop Capture](https://github.com/Zeugh-eth/clop-capture) | Browser-captured observations (code reviews, feedback) can serve as source material for attestations, connecting real-world context to on-chain reputation data. |
+| [Fair Profit License](https://github.com/Zeugh-eth/fair-profit-license) | FPL Path C ("Deep Funding") ecosystem contributions could generate Trustful attestations, rewarding ecosystem supporters with verifiable reputation. Reputation data could also inform FPL licensing decisions. |
+
 ## License
 
 MIT
